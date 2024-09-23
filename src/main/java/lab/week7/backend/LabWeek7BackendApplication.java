@@ -9,5 +9,4 @@ public class LabWeek7BackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LabWeek7BackendApplication.class, args);
 	}
-
 }
