@@ -34,13 +34,13 @@ public class UserAccount implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    private Boolean expired;
+    private Boolean expired = false;
 
-    private Boolean locked;
+    private Boolean locked = false;
 
-    private Boolean credentialsExpired;
+    private Boolean credentialsExpired = false;
 
-    private Boolean enable;
+    private Boolean enable = true;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
